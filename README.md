@@ -11,4 +11,4 @@ This builds from rocker/verse to provide an image with Rstudio and common R [tid
 - **brms**
 
 ## Status
-
+![build status](https://img.shields.io/docker/cloud/build/wytamma/brms)
