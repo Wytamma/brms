@@ -1,4 +1,4 @@
-FROM rocker/verse:latest
+FROM rocker/verse:3.6.3
 LABEL Wytamma Wirth wytamma.wirth@me.com
 
 RUN apt-get update \
