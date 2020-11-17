@@ -6,7 +6,6 @@ RUN apt-get update \
     && apt-get clean \
     && rm -rf /var/lib/apt/lists/
 
-# Install rstan
-RUN install2.r --error --deps TRUE \
-    brms \
-    && rm -rf /tmp/downloaded_packages/ /tmp/*.rds
+# Install brms
+RUN install2.r brms \
+    && rm -rf /tmp/downloaded_packages/ /tmp/*.rdss
